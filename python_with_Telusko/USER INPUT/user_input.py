@@ -1,4 +1,4 @@
-ch = input('Enter Your Full name: ')[0]
+ch = input('Enter Your Full name: ')[0:5]
 # receiving input from user and printing out character
 # as they are stored in an array of characters
 print(ch)
@@ -8,3 +8,7 @@ print(ch)
 # from a user input
 ex = eval(input("enter an expression"))
 print(ex)
+
+num = int(input('enter any number: '))
+cube = num **3
+print(cube)
